@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code & IDE settings
+.vscode/
+.idea/
+
+# Large EEG Raw Data & Processed Tensors (Do NOT commit to git)
+*.csv
+*.npy
+*.npz
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained Models & Checkpoints
+models/*.pt
+models/*.pth
+models/*.pkl
+!models/.gitkeep
+
+# Generated plots & logs
+results/*.png
+results/*.pdf
+*.log
+!results/.gitkeep
